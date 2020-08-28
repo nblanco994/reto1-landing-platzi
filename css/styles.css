@@ -14,8 +14,6 @@ body{
     object-fit: none;
     padding-left: 65px;
     padding-right: 65px;  
-    overflow-y: scroll; /*Scroll vertical*/
-    overflow-x: hidden;  /*Hidden: Esconde scroll horizontal*/
 }
 
 img{
@@ -152,3 +150,8 @@ button {
 .fab.instagram:hover:before {
   width: 100%;
 }
+
+@media screen and (min-width:300px) and (max-width:800px) {
+  body{font-size:0.1em;}
+  sidebar{display:none;}
+  }
