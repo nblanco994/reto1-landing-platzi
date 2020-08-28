@@ -30,8 +30,8 @@ img{
   }
   
 .cont-header>img{
-    width: 674px;
-    height: 445px;
+    width: 100%;
+    height: 460px;
   }
   
 .txt-header{
@@ -149,13 +149,4 @@ button {
 
 .fab.instagram:hover:before {
   width: 100%;
-}
-
-@media screen and (min-width: 1000px){
-  body{
-      background-image: url('../../images/bg-desktop.svg');
-      background-size: contain;
-      min-height: 100vh;
-      overflow: hidden;
-  }
 }
