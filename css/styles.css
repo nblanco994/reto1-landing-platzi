@@ -76,23 +76,29 @@ button {
   height: 30px;
   border-radius: 55%;
   background-color: transparent;
-  background-size: 15px 15px;
-  background-position: center;
-  background-repeat: no-repeat;
   border: 1.4px solid white;
   margin-right: 8px;
 }
 
 .fab.facebook {
-  background-image: url(../images/facebook.svg);
+  background: url(../images/facebook.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
 }
 
 .fab.twitter {
-  background-image: url(../images/twitter.svg);
+  background: url(../images/twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
 }
 
 .fab.instagram {
-  background-image: url(../images/instagram.svg);
+  background: url(../images/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px;
 }
 
 
