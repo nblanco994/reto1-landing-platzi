@@ -14,6 +14,8 @@ body{
     object-fit: none;
     padding-left: 65px;
     padding-right: 65px;  
+    overflow-y: scroll; /*Scroll vertical*/
+    overflow-x: hidden;  /*Hidden: Esconde scroll horizontal*/
 }
 
 img{
@@ -77,14 +79,31 @@ button {
   border-radius: 55%;
   background-color: transparent;
   border: 1.4px solid white;
+  color: #fff !important;
   margin-right: 8px;
+  position: relative;
 }
-
 .fab.facebook {
   background: url(../images/facebook.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 15px 15px;
+}
+
+.fab.facebook:before {
+  content:"";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+  border-radius: 55%;
+}
+
+.fab.facebook:hover:before {
+  width: 100%;
 }
 
 .fab.twitter {
@@ -94,11 +113,42 @@ button {
   background-size: 15px 15px;
 }
 
+.fab.twitter:before {
+  content:"";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+  border-radius: 55%;
+}
+
+.fab.twitter:hover:before {
+  width: 100%;
+}
+
 .fab.instagram {
   background: url(../images/instagram.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 15px 15px;
+  
 }
 
+.fab.instagram:before {
+  content:"";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 1s ease;
+  border-radius: 55%;
+}
 
+.fab.instagram:hover:before {
+  width: 100%;
+}
