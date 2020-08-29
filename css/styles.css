@@ -179,7 +179,7 @@ button {
                 width: auto;
                 height:25px;
                 padding-bottom:0px;
-                margin-left: 50px;
+                margin-left: 49px;
                 
               }
               .cont {
@@ -195,6 +195,7 @@ button {
                 height: 49%;
                 display:block;
                 margin:auto;
+                padding-top:27px;
               }
 
               .txt-header{
