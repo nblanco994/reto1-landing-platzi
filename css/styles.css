@@ -184,7 +184,7 @@ button {
               }
               .cont {
                 display: table;
-            }
+              }
               .cont-header{
                 display: table-cell;
                 vertical-align: middle;
@@ -206,13 +206,13 @@ button {
               }
 
               .txt-header h1{
-              margin: 30px 0 0 0;
-              font-size: 18px;
+                margin: 30px 0 0 0;
+                font-size: 18px;
               }
 
               .txt-header p{
-              font-size: 13px;
-              line-height:23px;
+                font-size: 13px;
+                line-height:23px;
               }
 
               .cont-header a{
@@ -223,6 +223,6 @@ button {
                 margin-bottom: 15px;
               }             
               .primary-footer {
-              text-align: center;
+                text-align: center;
               }
             }
