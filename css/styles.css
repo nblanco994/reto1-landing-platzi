@@ -30,7 +30,7 @@ img{
   }
   
 .cont-header>img{
-    width: 100%;
+    width: 670px;
     height: 460px;
   }
   
@@ -43,6 +43,7 @@ img{
   margin: 80px 0 0 0;
   color: #fcfcfc;
   font-size: 28px;
+   
 }
 
 .txt-header p{
@@ -150,3 +151,78 @@ button {
 .fab.instagram:hover:before {
   width: 100%;
 }
+
+@media screen and (max-device-width : 480px) and (orientation:portrait) {
+
+        #sidebar{
+	        display:none;
+	        }
+
+                #menu{
+               text-align:center;
+               }
+
+              body{
+                font-family: 'Poppins', sans-serif;
+                background: url(../images/bg-desktop.svg);
+                background-color: hsl(257, 40%, 49%);
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: contain; 
+                align-items: center;
+                padding-left: 5px;
+                padding-right: 5px;
+                
+              }
+              img{
+                padding-top: 37px;
+                width: auto;
+                height:38px;
+                padding-bottom:0px;
+              }
+              .cont {
+                display: table;
+            }
+              .cont-header{
+                width: auto;
+                height: 100%;
+                display: table-cell;
+                vertical-align: middle;
+              }
+              
+            .cont-header>img{
+                width: 90%;
+                height: 55%;
+                display:block;
+                margin:auto;
+              }
+
+              .txt-header{
+                margin: 0;
+                color: #fcfcfc;
+                text-align: center;
+                padding-left: 10px;
+                padding-right: 10px;
+              }
+
+              .txt-header h1{
+              margin: 30px 0 0 0;
+              font-size: 18px;
+              }
+
+              .txt-header p{
+              font-size: 13px;
+              line-height:23px;
+              }
+
+              .cont-header a{
+                width: 140px;
+                margin: 5px auto;
+                text-align: center;
+                position: relative;
+                margin-bottom: 15px;
+              }             
+              .primary-footer {
+              text-align: center;
+              }
+            }
