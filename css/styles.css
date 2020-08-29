@@ -169,30 +169,30 @@ button {
                 background-repeat: no-repeat;
                 background-attachment: fixed; 
                 background-size: contain; 
-                align-items: center;
                 padding-left: 5px;
                 padding-right: 5px;
-                
+                margin-left:-10px;
+                margin-right:-5px;
               }
               img{
                 padding-top: 37px;
                 width: auto;
-                height:38px;
+                height:25px;
                 padding-bottom:0px;
+                margin-left: 40px;
+                
               }
               .cont {
                 display: table;
             }
               .cont-header{
-                width: auto;
-                height: 100%;
                 display: table-cell;
                 vertical-align: middle;
               }
               
             .cont-header>img{
-                width: 90%;
-                height: 55%;
+                width: 78%;
+                height: 46%;
                 display:block;
                 margin:auto;
               }
