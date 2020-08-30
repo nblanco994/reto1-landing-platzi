@@ -1,7 +1,7 @@
 
 body{
     padding: 0;
-    margin: 0px auto;
+    margin: 0;
     max-width: 1440px;
     font-family: 'Poppins', sans-serif;
     background: url(../images/bg-desktop.svg);
@@ -11,7 +11,6 @@ body{
     background-size: contain; 
     background-position: center;
     object-fit: none;
-    
 }
 
 img{
@@ -19,12 +18,14 @@ img{
   width: auto;
   height:38px;
   padding-bottom:10px;
+  padding-left: 50px;
 }
 
 .cont-header{
     width: auto;
     height: 100%;
     display: flex;
+    padding-right: 50px;
   }
   
 .cont-header>img{
@@ -68,6 +69,7 @@ img{
 
 .primary-footer {
   text-align: end;
+  padding-right: 75px;
 }
 
 button {
@@ -174,6 +176,7 @@ button {
                 height:25px;
                 padding-bottom:0px;
                 margin-left: 40px; 
+                padding-left: 0px;
               }
               .cont {
                 display: table;
@@ -181,6 +184,8 @@ button {
               .cont-header{
                 display: table-cell;
                 vertical-align: middle;
+                padding-right: 0px;
+                
               }
               
             .cont-header>img{
@@ -220,5 +225,6 @@ button {
               .primary-footer {
                 text-align: center;
                 padding-left: 8px;
+                padding-right: 0px;
               }
             }
